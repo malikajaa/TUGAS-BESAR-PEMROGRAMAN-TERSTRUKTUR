@@ -1,0 +1,79 @@
+body {
+    background-image: url('pemandangan2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#gameContainer{
+    text-align: center;
+}
+#gameBoard{
+    border: 3px solid;
+}
+#scoreText{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+}
+#resetBtn{
+    font-family: "Holtwood One SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    width: 100px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#startBtn{
+    font-family: "Holtwood One SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    width: 100px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.title {
+    font-family: "Faster One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    text-align: center;
+    margin-left: 100px;
+    transform: translateY(80px);
+    padding: 50px;
+  }
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+.child_btn{
+    display: inline-block;
+    margin: 5px;
+    padding-bottom: 9rem;
+    /* padding: 10px; */
+    /* width: 20px;
+    height: 30px; */
+}
+
+.child_canvas{
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    /* width: 50px;
+    height: 50px; */
+}
+
+
